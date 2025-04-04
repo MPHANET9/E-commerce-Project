@@ -1,1 +1,7 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@layer components {
+    .header_top__icon_wrapper {
+        @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-red-300 hover:text-white
+    }
+}
