@@ -6,7 +6,7 @@ import { FiHeart, FiShoppingBag } from "react-icons/fi";
 const HeaderMain = () => {
     return (
         <div className="border-b border-gray-200 py-5">
-            <div className="container flex justify-between items-center gap-5 px-4">
+            <div className="w-full flex justify-between items-center gap-5 px-4">
                 <div className="hidden lg:flex font-bold text-4l text-center pb-4 sm:pb-0 text-gray-950">
                     Logo
                 </div>

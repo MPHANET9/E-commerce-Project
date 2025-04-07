@@ -4,7 +4,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 const HeaderTop = () => {
     return (
         <div className="border-b border-gray-200 ">
-            <div className="container py-4 px-4 w-full">
+            <div className="w-full  py-4 px-4">
                 <div className="flex justify-between items-center">
                     <div className="hidden lg:flex gap-1">
                         <div className="header_top__icon_wrapper">
