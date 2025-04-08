@@ -16,7 +16,7 @@ const HeaderTop = () => {
                     </div>
                     <div className="w-[70px]">
                         <select
-                            className="text-gray-500 text-[12px] font-bold"
+                            className="text-gray-500 text-[12px] font-bold sm:hidden"
                             name="category"
                             id="category"
                         >
