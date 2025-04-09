@@ -12,37 +12,34 @@ const HeroSection = () => {
                     <p className='text-base text-gray-600'>
                         Wholesome Cup was created with one simple belief, that food and drink can be healing.
                         We combine the goodness of real ingredients with the warrain of human connection - crafting
-                        experience that feed both the body and soul.
+                        experience that feeds both the body and soul.
                     </p>
                 </div>
             </div>
             {/**Image Section */}
-            <div className='container w-[40%] flex justify-center items-center gap-4'>
+            <div className='w-[40%] flex justify-center items-center gap-4 translate-y-6'>
                 {/**Column 1 - Single Centered Image */}
-                <div className='flex justify-center items-center h-full gap-2'>
-                    <div className='h-60 w-35 bg-gray-500 flex items-center justify-center rounded-md shadow'>
+                <div className='flex justify-center items-center h-full'>
+                    <div className='h-40 w-32 bg-gray-500 flex items-center justify-center rounded-md shadow translate-y-7'>
                         Image1
                     </div>
                 </div>
                 {/**Column 2 - Stacked Images */}
-                <div className='container flex flex-col gap-2'>
-                    <div className='h-28 w-35 bg-gray-500 flex items-center justify-center rounded-md shadow'>
+                <div className='flex flex-col justify-center items-center gap-2 translate-y-7'>
+                    <div className='h-36 w-32 bg-gray-500 flex items-center justify-center rounded-md shadow'>
                         Image2.1
                     </div>
-                    <div className='h-28 w-35 bg-gray-500 flex items-center justify-center rounded-md shadow '>
+                    <div className='h-36 w-32 bg-gray-500 flex items-center justify-center rounded-md shadow '>
                         Image2.2
                     </div>
                 </div>
                 {/**Column 3 - Three Stagged Images with slight ofset */}
-                <div className='container flex flex-col gap-2'>
-                    <div className='h-20 w-35 bg-gray-500 flex items-center justify-center -translate-y-2 rounded-md shadow '>
+                <div className='flex flex-col justify-center items-center gap-2 -translate-y-7'>
+                    <div className='h-36 w-32 bg-gray-500 flex items-center justify-center  rounded-md shadow '>
                         Image3.3
                     </div>
-                    <div className='h-20 w-35 bg-gray-500 flex items-center justify-center rounded-md shadow '>
+                    <div className='h-36 w-32 bg-gray-500 flex items-center justify-center rounded-md shadow '>
                         Image3.2
-                    </div>
-                    <div className='h-20 w-35 bg-gray-500 flex items-center justify-center translate-y-2 rounded-md shadow'>
-                        Image3.1
                     </div>
                 </div>
             </div>
